@@ -1,0 +1,1147 @@
+{
+  "experiment": "BASE-001",
+  "experiment_dir": "/home/prashant/Projects/spacecraft_TM_model/sat_tm/experiments/BASE-001",
+  "total_frames": 221,
+  "total_anomalies": 16,
+  "total_ok": 146,
+  "window_size": 60,
+  "threshold": 10.3014,
+  "top_k": 3,
+  "persistence_window": 3,
+  "results": [
+    {
+      "window": 1,
+      "score": 25.208984,
+      "recon_err": 0.255645,
+      "anomaly": false,
+      "time": "14:18:15"
+    },
+    {
+      "window": 2,
+      "score": 23.23942,
+      "recon_err": 0.237886,
+      "anomaly": false,
+      "time": "14:18:16"
+    },
+    {
+      "window": 3,
+      "score": 20.682814,
+      "recon_err": 0.216572,
+      "anomaly": true,
+      "time": "14:18:17"
+    },
+    {
+      "window": 4,
+      "score": 19.31189,
+      "recon_err": 0.204072,
+      "anomaly": true,
+      "time": "14:18:18"
+    },
+    {
+      "window": 5,
+      "score": 17.815107,
+      "recon_err": 0.192059,
+      "anomaly": true,
+      "time": "14:18:19"
+    },
+    {
+      "window": 6,
+      "score": 16.703108,
+      "recon_err": 0.182137,
+      "anomaly": true,
+      "time": "14:18:20"
+    },
+    {
+      "window": 7,
+      "score": 15.852675,
+      "recon_err": 0.174237,
+      "anomaly": true,
+      "time": "14:18:21"
+    },
+    {
+      "window": 8,
+      "score": 14.642283,
+      "recon_err": 0.160403,
+      "anomaly": true,
+      "time": "14:18:22"
+    },
+    {
+      "window": 9,
+      "score": 14.559479,
+      "recon_err": 0.158663,
+      "anomaly": true,
+      "time": "14:18:23"
+    },
+    {
+      "window": 10,
+      "score": 13.453309,
+      "recon_err": 0.154024,
+      "anomaly": true,
+      "time": "14:18:24"
+    },
+    {
+      "window": 11,
+      "score": 13.30753,
+      "recon_err": 0.149226,
+      "anomaly": true,
+      "time": "14:18:25"
+    },
+    {
+      "window": 12,
+      "score": 12.548535,
+      "recon_err": 0.140317,
+      "anomaly": true,
+      "time": "14:18:26"
+    },
+    {
+      "window": 13,
+      "score": 12.044491,
+      "recon_err": 0.137305,
+      "anomaly": true,
+      "time": "14:18:27"
+    },
+    {
+      "window": 14,
+      "score": 11.655658,
+      "recon_err": 0.139416,
+      "anomaly": true,
+      "time": "14:18:28"
+    },
+    {
+      "window": 15,
+      "score": 11.521287,
+      "recon_err": 0.136024,
+      "anomaly": true,
+      "time": "14:18:29"
+    },
+    {
+      "window": 16,
+      "score": 10.942554,
+      "recon_err": 0.129381,
+      "anomaly": true,
+      "time": "14:18:30"
+    },
+    {
+      "window": 17,
+      "score": 10.799714,
+      "recon_err": 0.131536,
+      "anomaly": true,
+      "time": "14:18:31"
+    },
+    {
+      "window": 18,
+      "score": 10.646056,
+      "recon_err": 0.126741,
+      "anomaly": true,
+      "time": "14:18:32"
+    },
+    {
+      "window": 19,
+      "score": 10.131022,
+      "recon_err": 0.123671,
+      "anomaly": false,
+      "time": "14:18:33"
+    },
+    {
+      "window": 20,
+      "score": 9.926263,
+      "recon_err": 0.118727,
+      "anomaly": false,
+      "time": "14:18:34"
+    },
+    {
+      "window": 21,
+      "score": 9.956244,
+      "recon_err": 0.118514,
+      "anomaly": false,
+      "time": "14:18:35"
+    },
+    {
+      "window": 22,
+      "score": 9.957665,
+      "recon_err": 0.117703,
+      "anomaly": false,
+      "time": "14:18:36"
+    },
+    {
+      "window": 23,
+      "score": 9.660729,
+      "recon_err": 0.113608,
+      "anomaly": false,
+      "time": "14:18:37"
+    },
+    {
+      "window": 24,
+      "score": 9.451119,
+      "recon_err": 0.114123,
+      "anomaly": false,
+      "time": "14:18:38"
+    },
+    {
+      "window": 25,
+      "score": 9.443858,
+      "recon_err": 0.113942,
+      "anomaly": false,
+      "time": "14:18:39"
+    },
+    {
+      "window": 26,
+      "score": 9.446063,
+      "recon_err": 0.11173,
+      "anomaly": false,
+      "time": "14:18:40"
+    },
+    {
+      "window": 27,
+      "score": 9.246516,
+      "recon_err": 0.112576,
+      "anomaly": false,
+      "time": "14:18:41"
+    },
+    {
+      "window": 28,
+      "score": 9.338395,
+      "recon_err": 0.111659,
+      "anomaly": false,
+      "time": "14:18:42"
+    },
+    {
+      "window": 29,
+      "score": 9.097924,
+      "recon_err": 0.110687,
+      "anomaly": false,
+      "time": "14:18:43"
+    },
+    {
+      "window": 30,
+      "score": 8.873324,
+      "recon_err": 0.113199,
+      "anomaly": false,
+      "time": "14:18:44"
+    },
+    {
+      "window": 31,
+      "score": 8.846572,
+      "recon_err": 0.107645,
+      "anomaly": false,
+      "time": "14:18:45"
+    },
+    {
+      "window": 32,
+      "score": 8.725463,
+      "recon_err": 0.107952,
+      "anomaly": false,
+      "time": "14:18:46"
+    },
+    {
+      "window": 33,
+      "score": 8.639789,
+      "recon_err": 0.105383,
+      "anomaly": false,
+      "time": "14:18:47"
+    },
+    {
+      "window": 34,
+      "score": 8.505408,
+      "recon_err": 0.106596,
+      "anomaly": false,
+      "time": "14:18:48"
+    },
+    {
+      "window": 35,
+      "score": 8.52276,
+      "recon_err": 0.106496,
+      "anomaly": false,
+      "time": "14:18:49"
+    },
+    {
+      "window": 36,
+      "score": 8.197993,
+      "recon_err": 0.103944,
+      "anomaly": false,
+      "time": "14:18:50"
+    },
+    {
+      "window": 37,
+      "score": 7.985116,
+      "recon_err": 0.102246,
+      "anomaly": false,
+      "time": "14:18:51"
+    },
+    {
+      "window": 38,
+      "score": 7.986274,
+      "recon_err": 0.102275,
+      "anomaly": false,
+      "time": "14:18:52"
+    },
+    {
+      "window": 39,
+      "score": 8.200143,
+      "recon_err": 0.10696,
+      "anomaly": false,
+      "time": "14:18:53"
+    },
+    {
+      "window": 40,
+      "score": 8.462552,
+      "recon_err": 0.111257,
+      "anomaly": false,
+      "time": "14:18:54"
+    },
+    {
+      "window": 41,
+      "score": 8.219272,
+      "recon_err": 0.110515,
+      "anomaly": false,
+      "time": "14:18:55"
+    },
+    {
+      "window": 42,
+      "score": 8.281981,
+      "recon_err": 0.110825,
+      "anomaly": false,
+      "time": "14:18:56"
+    },
+    {
+      "window": 43,
+      "score": 8.141833,
+      "recon_err": 0.111935,
+      "anomaly": false,
+      "time": "14:18:57"
+    },
+    {
+      "window": 44,
+      "score": 7.98053,
+      "recon_err": 0.111206,
+      "anomaly": false,
+      "time": "14:18:58"
+    },
+    {
+      "window": 45,
+      "score": 7.630896,
+      "recon_err": 0.108732,
+      "anomaly": false,
+      "time": "14:18:59"
+    },
+    {
+      "window": 46,
+      "score": 7.672986,
+      "recon_err": 0.108992,
+      "anomaly": false,
+      "time": "14:19:00"
+    },
+    {
+      "window": 47,
+      "score": 7.66951,
+      "recon_err": 0.109765,
+      "anomaly": false,
+      "time": "14:19:01"
+    },
+    {
+      "window": 48,
+      "score": 7.56898,
+      "recon_err": 0.107947,
+      "anomaly": false,
+      "time": "14:19:02"
+    },
+    {
+      "window": 49,
+      "score": 7.503639,
+      "recon_err": 0.106805,
+      "anomaly": false,
+      "time": "14:19:03"
+    },
+    {
+      "window": 50,
+      "score": 7.659334,
+      "recon_err": 0.108527,
+      "anomaly": false,
+      "time": "14:19:04"
+    },
+    {
+      "window": 51,
+      "score": 7.785543,
+      "recon_err": 0.110341,
+      "anomaly": false,
+      "time": "14:19:05"
+    },
+    {
+      "window": 52,
+      "score": 7.653273,
+      "recon_err": 0.107699,
+      "anomaly": false,
+      "time": "14:19:06"
+    },
+    {
+      "window": 53,
+      "score": 7.698055,
+      "recon_err": 0.110498,
+      "anomaly": false,
+      "time": "14:19:07"
+    },
+    {
+      "window": 54,
+      "score": 7.616368,
+      "recon_err": 0.109598,
+      "anomaly": false,
+      "time": "14:19:08"
+    },
+    {
+      "window": 55,
+      "score": 7.501883,
+      "recon_err": 0.11122,
+      "anomaly": false,
+      "time": "14:19:09"
+    },
+    {
+      "window": 56,
+      "score": 7.244504,
+      "recon_err": 0.111922,
+      "anomaly": false,
+      "time": "14:19:10"
+    },
+    {
+      "window": 57,
+      "score": 7.121185,
+      "recon_err": 0.112611,
+      "anomaly": false,
+      "time": "14:19:11"
+    },
+    {
+      "window": 58,
+      "score": 6.900743,
+      "recon_err": 0.109384,
+      "anomaly": false,
+      "time": "14:19:12"
+    },
+    {
+      "window": 59,
+      "score": 7.161035,
+      "recon_err": 0.112388,
+      "anomaly": false,
+      "time": "14:19:13"
+    },
+    {
+      "window": 60,
+      "score": 7.157943,
+      "recon_err": 0.114424,
+      "anomaly": false,
+      "time": "14:19:14"
+    },
+    {
+      "window": 61,
+      "score": 6.837864,
+      "recon_err": 0.109289,
+      "anomaly": false,
+      "time": "14:19:15"
+    },
+    {
+      "window": 62,
+      "score": 6.816322,
+      "recon_err": 0.107364,
+      "anomaly": false,
+      "time": "14:19:16"
+    },
+    {
+      "window": 63,
+      "score": 6.816715,
+      "recon_err": 0.10904,
+      "anomaly": false,
+      "time": "14:19:17"
+    },
+    {
+      "window": 64,
+      "score": 6.989614,
+      "recon_err": 0.108101,
+      "anomaly": false,
+      "time": "14:19:18"
+    },
+    {
+      "window": 65,
+      "score": 7.00087,
+      "recon_err": 0.109536,
+      "anomaly": false,
+      "time": "14:19:19"
+    },
+    {
+      "window": 66,
+      "score": 6.460494,
+      "recon_err": 0.106096,
+      "anomaly": false,
+      "time": "14:19:20"
+    },
+    {
+      "window": 67,
+      "score": 6.291595,
+      "recon_err": 0.107279,
+      "anomaly": false,
+      "time": "14:19:21"
+    },
+    {
+      "window": 68,
+      "score": 6.357736,
+      "recon_err": 0.110468,
+      "anomaly": false,
+      "time": "14:19:22"
+    },
+    {
+      "window": 69,
+      "score": 6.012425,
+      "recon_err": 0.105757,
+      "anomaly": false,
+      "time": "14:19:23"
+    },
+    {
+      "window": 70,
+      "score": 6.194973,
+      "recon_err": 0.105042,
+      "anomaly": false,
+      "time": "14:19:24"
+    },
+    {
+      "window": 71,
+      "score": 6.079559,
+      "recon_err": 0.104656,
+      "anomaly": false,
+      "time": "14:19:25"
+    },
+    {
+      "window": 72,
+      "score": 6.056154,
+      "recon_err": 0.105339,
+      "anomaly": false,
+      "time": "14:19:26"
+    },
+    {
+      "window": 73,
+      "score": 6.123175,
+      "recon_err": 0.105763,
+      "anomaly": false,
+      "time": "14:19:27"
+    },
+    {
+      "window": 74,
+      "score": 6.097373,
+      "recon_err": 0.105152,
+      "anomaly": false,
+      "time": "14:19:28"
+    },
+    {
+      "window": 75,
+      "score": 5.816787,
+      "recon_err": 0.104033,
+      "anomaly": false,
+      "time": "14:19:29"
+    },
+    {
+      "window": 76,
+      "score": 5.757033,
+      "recon_err": 0.101253,
+      "anomaly": false,
+      "time": "14:19:30"
+    },
+    {
+      "window": 77,
+      "score": 5.752571,
+      "recon_err": 0.102055,
+      "anomaly": false,
+      "time": "14:19:31"
+    },
+    {
+      "window": 78,
+      "score": 5.617129,
+      "recon_err": 0.103121,
+      "anomaly": false,
+      "time": "14:19:32"
+    },
+    {
+      "window": 79,
+      "score": 5.696861,
+      "recon_err": 0.105037,
+      "anomaly": false,
+      "time": "14:19:33"
+    },
+    {
+      "window": 80,
+      "score": 5.371218,
+      "recon_err": 0.103323,
+      "anomaly": false,
+      "time": "14:19:34"
+    },
+    {
+      "window": 81,
+      "score": 5.439295,
+      "recon_err": 0.104545,
+      "anomaly": false,
+      "time": "14:19:35"
+    },
+    {
+      "window": 82,
+      "score": 5.286047,
+      "recon_err": 0.102963,
+      "anomaly": false,
+      "time": "14:19:36"
+    },
+    {
+      "window": 83,
+      "score": 5.457573,
+      "recon_err": 0.102341,
+      "anomaly": false,
+      "time": "14:19:37"
+    },
+    {
+      "window": 84,
+      "score": 5.314763,
+      "recon_err": 0.100223,
+      "anomaly": false,
+      "time": "14:19:38"
+    },
+    {
+      "window": 85,
+      "score": 5.443392,
+      "recon_err": 0.103356,
+      "anomaly": false,
+      "time": "14:19:39"
+    },
+    {
+      "window": 86,
+      "score": 5.69779,
+      "recon_err": 0.107252,
+      "anomaly": false,
+      "time": "14:19:40"
+    },
+    {
+      "window": 87,
+      "score": 5.414598,
+      "recon_err": 0.104018,
+      "anomaly": false,
+      "time": "14:19:41"
+    },
+    {
+      "window": 88,
+      "score": 5.570332,
+      "recon_err": 0.10415,
+      "anomaly": false,
+      "time": "14:19:42"
+    },
+    {
+      "window": 89,
+      "score": 5.387442,
+      "recon_err": 0.104049,
+      "anomaly": false,
+      "time": "14:19:43"
+    },
+    {
+      "window": 90,
+      "score": 5.528854,
+      "recon_err": 0.104732,
+      "anomaly": false,
+      "time": "14:19:44"
+    },
+    {
+      "window": 91,
+      "score": 5.563089,
+      "recon_err": 0.10521,
+      "anomaly": false,
+      "time": "14:19:45"
+    },
+    {
+      "window": 92,
+      "score": 5.605176,
+      "recon_err": 0.106832,
+      "anomaly": false,
+      "time": "14:19:46"
+    },
+    {
+      "window": 93,
+      "score": 5.416503,
+      "recon_err": 0.104419,
+      "anomaly": false,
+      "time": "14:19:47"
+    },
+    {
+      "window": 94,
+      "score": 5.420927,
+      "recon_err": 0.103229,
+      "anomaly": false,
+      "time": "14:19:48"
+    },
+    {
+      "window": 95,
+      "score": 5.525943,
+      "recon_err": 0.101029,
+      "anomaly": false,
+      "time": "14:19:49"
+    },
+    {
+      "window": 96,
+      "score": 5.668706,
+      "recon_err": 0.101945,
+      "anomaly": false,
+      "time": "14:19:50"
+    },
+    {
+      "window": 97,
+      "score": 5.881439,
+      "recon_err": 0.105892,
+      "anomaly": false,
+      "time": "14:19:51"
+    },
+    {
+      "window": 98,
+      "score": 5.407483,
+      "recon_err": 0.105748,
+      "anomaly": false,
+      "time": "14:19:52"
+    },
+    {
+      "window": 99,
+      "score": 5.008891,
+      "recon_err": 0.101121,
+      "anomaly": false,
+      "time": "14:19:53"
+    },
+    {
+      "window": 100,
+      "score": 4.929755,
+      "recon_err": 0.103703,
+      "anomaly": false,
+      "time": "14:19:54"
+    },
+    {
+      "window": 101,
+      "score": 5.217713,
+      "recon_err": 0.106563,
+      "anomaly": false,
+      "time": "14:19:55"
+    },
+    {
+      "window": 102,
+      "score": 5.044803,
+      "recon_err": 0.104118,
+      "anomaly": false,
+      "time": "14:19:56"
+    },
+    {
+      "window": 103,
+      "score": 5.135998,
+      "recon_err": 0.106914,
+      "anomaly": false,
+      "time": "14:19:57"
+    },
+    {
+      "window": 104,
+      "score": 5.166676,
+      "recon_err": 0.11005,
+      "anomaly": false,
+      "time": "14:19:58"
+    },
+    {
+      "window": 105,
+      "score": 5.083827,
+      "recon_err": 0.111307,
+      "anomaly": false,
+      "time": "14:19:59"
+    },
+    {
+      "window": 106,
+      "score": 5.323967,
+      "recon_err": 0.1098,
+      "anomaly": false,
+      "time": "14:20:00"
+    },
+    {
+      "window": 107,
+      "score": 5.159091,
+      "recon_err": 0.109274,
+      "anomaly": false,
+      "time": "14:20:01"
+    },
+    {
+      "window": 108,
+      "score": 5.177167,
+      "recon_err": 0.107479,
+      "anomaly": false,
+      "time": "14:20:02"
+    },
+    {
+      "window": 109,
+      "score": 5.215075,
+      "recon_err": 0.109129,
+      "anomaly": false,
+      "time": "14:20:03"
+    },
+    {
+      "window": 110,
+      "score": 4.960867,
+      "recon_err": 0.107839,
+      "anomaly": false,
+      "time": "14:20:04"
+    },
+    {
+      "window": 111,
+      "score": 4.89037,
+      "recon_err": 0.105654,
+      "anomaly": false,
+      "time": "14:20:05"
+    },
+    {
+      "window": 112,
+      "score": 4.75003,
+      "recon_err": 0.106189,
+      "anomaly": false,
+      "time": "14:20:06"
+    },
+    {
+      "window": 113,
+      "score": 5.059115,
+      "recon_err": 0.106642,
+      "anomaly": false,
+      "time": "14:20:07"
+    },
+    {
+      "window": 114,
+      "score": 5.009889,
+      "recon_err": 0.108689,
+      "anomaly": false,
+      "time": "14:20:08"
+    },
+    {
+      "window": 115,
+      "score": 5.095344,
+      "recon_err": 0.108103,
+      "anomaly": false,
+      "time": "14:20:09"
+    },
+    {
+      "window": 116,
+      "score": 5.159756,
+      "recon_err": 0.107332,
+      "anomaly": false,
+      "time": "14:20:10"
+    },
+    {
+      "window": 117,
+      "score": 4.948854,
+      "recon_err": 0.104843,
+      "anomaly": false,
+      "time": "14:20:11"
+    },
+    {
+      "window": 118,
+      "score": 5.054338,
+      "recon_err": 0.108251,
+      "anomaly": false,
+      "time": "14:20:12"
+    },
+    {
+      "window": 119,
+      "score": 5.244579,
+      "recon_err": 0.109667,
+      "anomaly": false,
+      "time": "14:20:13"
+    },
+    {
+      "window": 120,
+      "score": 5.108884,
+      "recon_err": 0.108709,
+      "anomaly": false,
+      "time": "14:20:14"
+    },
+    {
+      "window": 121,
+      "score": 5.011631,
+      "recon_err": 0.109217,
+      "anomaly": false,
+      "time": "14:20:15"
+    },
+    {
+      "window": 122,
+      "score": 5.05826,
+      "recon_err": 0.110421,
+      "anomaly": false,
+      "time": "14:20:16"
+    },
+    {
+      "window": 123,
+      "score": 5.264741,
+      "recon_err": 0.112938,
+      "anomaly": false,
+      "time": "14:20:17"
+    },
+    {
+      "window": 124,
+      "score": 4.952652,
+      "recon_err": 0.113039,
+      "anomaly": false,
+      "time": "14:20:18"
+    },
+    {
+      "window": 125,
+      "score": 5.173501,
+      "recon_err": 0.113121,
+      "anomaly": false,
+      "time": "14:20:19"
+    },
+    {
+      "window": 126,
+      "score": 5.06042,
+      "recon_err": 0.113864,
+      "anomaly": false,
+      "time": "14:20:20"
+    },
+    {
+      "window": 127,
+      "score": 5.118273,
+      "recon_err": 0.112126,
+      "anomaly": false,
+      "time": "14:20:21"
+    },
+    {
+      "window": 128,
+      "score": 4.956415,
+      "recon_err": 0.111093,
+      "anomaly": false,
+      "time": "14:20:22"
+    },
+    {
+      "window": 129,
+      "score": 5.122438,
+      "recon_err": 0.112808,
+      "anomaly": false,
+      "time": "14:20:23"
+    },
+    {
+      "window": 130,
+      "score": 5.049193,
+      "recon_err": 0.113784,
+      "anomaly": false,
+      "time": "14:20:24"
+    },
+    {
+      "window": 131,
+      "score": 5.036872,
+      "recon_err": 0.114549,
+      "anomaly": false,
+      "time": "14:20:25"
+    },
+    {
+      "window": 132,
+      "score": 5.038982,
+      "recon_err": 0.114657,
+      "anomaly": false,
+      "time": "14:20:26"
+    },
+    {
+      "window": 133,
+      "score": 4.876237,
+      "recon_err": 0.115582,
+      "anomaly": false,
+      "time": "14:20:27"
+    },
+    {
+      "window": 134,
+      "score": 4.982086,
+      "recon_err": 0.115587,
+      "anomaly": false,
+      "time": "14:20:28"
+    },
+    {
+      "window": 135,
+      "score": 4.782322,
+      "recon_err": 0.112087,
+      "anomaly": false,
+      "time": "14:20:29"
+    },
+    {
+      "window": 136,
+      "score": 4.754831,
+      "recon_err": 0.112264,
+      "anomaly": false,
+      "time": "14:20:30"
+    },
+    {
+      "window": 137,
+      "score": 4.822715,
+      "recon_err": 0.113894,
+      "anomaly": false,
+      "time": "14:20:31"
+    },
+    {
+      "window": 138,
+      "score": 4.812917,
+      "recon_err": 0.11407,
+      "anomaly": false,
+      "time": "14:20:32"
+    },
+    {
+      "window": 139,
+      "score": 4.70145,
+      "recon_err": 0.113867,
+      "anomaly": false,
+      "time": "14:20:33"
+    },
+    {
+      "window": 140,
+      "score": 4.632019,
+      "recon_err": 0.112273,
+      "anomaly": false,
+      "time": "14:20:34"
+    },
+    {
+      "window": 141,
+      "score": 4.750155,
+      "recon_err": 0.112617,
+      "anomaly": false,
+      "time": "14:20:35"
+    },
+    {
+      "window": 142,
+      "score": 4.605339,
+      "recon_err": 0.109841,
+      "anomaly": false,
+      "time": "14:20:36"
+    },
+    {
+      "window": 143,
+      "score": 4.440865,
+      "recon_err": 0.108645,
+      "anomaly": false,
+      "time": "14:20:37"
+    },
+    {
+      "window": 144,
+      "score": 4.255435,
+      "recon_err": 0.105176,
+      "anomaly": false,
+      "time": "14:20:38"
+    },
+    {
+      "window": 145,
+      "score": 4.48971,
+      "recon_err": 0.10712,
+      "anomaly": false,
+      "time": "14:20:39"
+    },
+    {
+      "window": 146,
+      "score": 4.546523,
+      "recon_err": 0.106789,
+      "anomaly": false,
+      "time": "14:20:40"
+    },
+    {
+      "window": 147,
+      "score": 4.49024,
+      "recon_err": 0.106215,
+      "anomaly": false,
+      "time": "14:20:41"
+    },
+    {
+      "window": 148,
+      "score": 4.636111,
+      "recon_err": 0.111134,
+      "anomaly": false,
+      "time": "14:20:42"
+    },
+    {
+      "window": 149,
+      "score": 4.678775,
+      "recon_err": 0.108489,
+      "anomaly": false,
+      "time": "14:20:43"
+    },
+    {
+      "window": 150,
+      "score": 4.432688,
+      "recon_err": 0.106974,
+      "anomaly": false,
+      "time": "14:20:44"
+    },
+    {
+      "window": 151,
+      "score": 4.475855,
+      "recon_err": 0.107153,
+      "anomaly": false,
+      "time": "14:20:45"
+    },
+    {
+      "window": 152,
+      "score": 4.479733,
+      "recon_err": 0.107187,
+      "anomaly": false,
+      "time": "14:20:46"
+    },
+    {
+      "window": 153,
+      "score": 4.381719,
+      "recon_err": 0.106888,
+      "anomaly": false,
+      "time": "14:20:47"
+    },
+    {
+      "window": 154,
+      "score": 4.207421,
+      "recon_err": 0.105595,
+      "anomaly": false,
+      "time": "14:20:48"
+    },
+    {
+      "window": 155,
+      "score": 4.343621,
+      "recon_err": 0.108017,
+      "anomaly": false,
+      "time": "14:20:49"
+    },
+    {
+      "window": 156,
+      "score": 4.288875,
+      "recon_err": 0.107236,
+      "anomaly": false,
+      "time": "14:20:50"
+    },
+    {
+      "window": 157,
+      "score": 4.225622,
+      "recon_err": 0.107677,
+      "anomaly": false,
+      "time": "14:20:51"
+    },
+    {
+      "window": 158,
+      "score": 4.330935,
+      "recon_err": 0.107358,
+      "anomaly": false,
+      "time": "14:20:52"
+    },
+    {
+      "window": 159,
+      "score": 4.297278,
+      "recon_err": 0.105765,
+      "anomaly": false,
+      "time": "14:20:53"
+    },
+    {
+      "window": 160,
+      "score": 4.212232,
+      "recon_err": 0.104153,
+      "anomaly": false,
+      "time": "14:20:54"
+    },
+    {
+      "window": 161,
+      "score": 4.262188,
+      "recon_err": 0.102945,
+      "anomaly": false,
+      "time": "14:20:55"
+    },
+    {
+      "window": 162,
+      "score": 4.227085,
+      "recon_err": 0.102488,
+      "anomaly": false,
+      "time": "14:20:56"
+    }
+  ]
+}

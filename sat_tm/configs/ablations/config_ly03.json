@@ -1,0 +1,41 @@
+{
+    "experiment_id": "LY-03",
+    "experiment_type": "No. of layers is 3",
+    "baseline_id": "BASE-001",
+    "model": {
+        "architecture": "LSTM_Autoencoder",
+        "parameter_size": 65,
+        "hidden_size": 128,
+        "num_layers": 3
+    },
+    "training": {
+        "batch_size": 128,
+        "learning_rate": 0.001,
+        "optimizer": "Adam",
+        "epochs": 100,
+        "loss_function": "MSE",
+        "amp": false,
+        "early_stop_patience": 8,
+        "use_scheduler": true,
+        "use_early_stopping": true
+    },
+    "dataloader": {
+        "window_size": 60,
+        "features": 65,
+        "shuffle": true
+    },
+    "hardware": {
+        "gpu": "A5000",
+        "num_workers": 0
+    },
+    "seed": 42,
+    "metrics": {
+        "top_k": 3,
+        "min_rec_sigma": 0.05,
+        "min_std": 0.001,
+        "target_recall": 0.95,
+        "clip_scaled_to": 10,
+        "threshold_strategy": "f2_recall",
+        "persistence_window": 3
+    }
+}

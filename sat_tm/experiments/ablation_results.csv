@@ -1,0 +1,2 @@
+experiment_id,baseline_id,experiment_type,window_size,batch_size,hidden_dim,num_layers,lr,use_amp,best_epoch,best_val_loss,test_loss,total_train_time,seed,threshold,recall,precision,f1
+BASE-001,BASE-001,Frozen Baseline,60,128,128,1,0.001,False,17,0.09586628798113035,0.10295629501342773,2495.175230026245,42,10.301443099975586,0.754537838592572,0.9772151898734177,0.8515600378190986

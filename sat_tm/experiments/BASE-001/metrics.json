@@ -1,0 +1,23 @@
+{
+  "experiment_id": "BASE-001",
+  "baseline_id": "BASE-001",
+  "threshold": 10.301443099975586,
+  "recall": 0.754537838592572,
+  "precision": 0.9772151898734177,
+  "f1": 0.8515600378190986,
+  "confusion_matrix": [
+    [
+      255497,
+      63
+    ],
+    [
+      879,
+      2702
+    ]
+  ],
+  "best_epoch": 17,
+  "best_val_loss": 0.09586628798113035,
+  "test_loss": 0.10295629501342773,
+  "total_train_time": 2495.175230026245,
+  "seed": 42
+}

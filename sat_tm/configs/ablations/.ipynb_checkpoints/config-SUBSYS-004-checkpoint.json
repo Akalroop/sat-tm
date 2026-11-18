@@ -1,0 +1,178 @@
+{
+    "experiment_id": "SUBSYS-004",
+    "experiment_type": "architecture_ablation merged groups",
+    "baseline_id": "BASE-001",
+    "model": {
+        "architecture": "LSTM_Autoencoder",
+        "parameter_size": 65,
+        "hidden_size": 128,
+        "num_layers": 1,
+        "subsystem_dims": {
+            "orbit_navigation": {
+                "dim": 7,
+                "params": [
+                    "altitude_km",
+                    "nav_pos_x_km",
+                    "nav_pos_y_km",
+                    "nav_pos_z_km",
+                    "nav_vel_x_kms",
+                    "nav_vel_y_kms",
+                    "nav_vel_z_kms"
+                ]
+            },
+            "attitude": {
+                "dim": 7,
+                "params": [
+                    "att_q0",
+                    "att_q1",
+                    "att_q2",
+                    "att_q3",
+                    "att_rate_x_rads",
+                    "att_rate_y_rads",
+                    "att_rate_z_rads"
+                ]
+            },
+            "sun_exposure": {
+                "dim": 1,
+                "params": [
+                    "sun_angle_deg"
+                ]
+            },
+            "Eclipse": {
+                "dim": 2,
+                "params": [
+                    "eclipse_depth",
+                    "shadow_fraction"
+                ]
+            },
+            "sun_vector": {
+                "dim": 4,
+                "params": [
+                    "sun_exposure",
+                    "sun_vector_x",
+                    "sun_vector_y",
+                    "sun_vector_z"
+                ]
+            },
+            "battery": {
+                "dim": 4,
+                "params": [
+                    "battery_voltage_V",
+                    "battery_current_A",
+                    "battery_soc",
+                    "battery_temperature_C"
+                ]
+            },
+            "solar_arrays": {
+                "dim": 3,
+                "params": [
+                    "solar_panel_current_A",
+                    "solar_panel_watts",
+                    "solar_panel_voltage_V"
+                ]
+            },
+            "thermal_control": {
+                "dim": 7,
+                "params": [
+                    "cpu_temperature_C",
+                    "rx_temperature_C",
+                    "bus_temperature_C",
+                    "ambient_temperature_C",
+                    "thermistor_cpu_setpoint_C",
+                    "thermistor_batt_setpoint_C",
+                    "thermistor_rx_setpoint_C"
+                ]
+            },
+            "heater_control": {
+                "dim": 3,
+                "params": [
+                    "heater_cpu_current_A",
+                    "heater_batt_current_A",
+                    "heater_rx_current_A"
+                ]
+            },
+            "power_management": {
+                "dim": 4,
+                "params": [
+                    "heater_bus_voltage_V",
+                    "system_load",
+                    "bus_power_W",
+                    "total_power_W"
+                ]
+            },
+            "adcs_combined": {
+                "dim": 11,
+                "params": [
+                    "rw_speed_1_rpm",
+                    "rw_speed_2_rpm",
+                    "rw_speed_3_rpm",
+                    "rw_speed_4_rpm",
+                    "rw_torque_1_nm",
+                    "rw_torque_2_nm",
+                    "rw_torque_3_nm",
+                    "rw_torque_4_nm",
+                    "gyro_rate_x_dps",
+                    "gyro_rate_y_dps",
+                    "gyro_rate_z_dps"
+                ]
+            },
+            "comm_link_quality": {
+                "dim": 1,
+                "params": [
+                    "comm_snr_db"
+                ]
+            },
+            "comm_ground": {
+                "dim": 2,
+                "params": [
+                    "comm_active",
+                    "ground_range_km"
+                ]
+            },
+            "thruster_lebgroup": {
+                "dim": 9,
+                "params": [
+                    "thruster_active",
+                    "thrust_force_N",
+                    "thruster_propellant_kg",
+                    "thruster_burn_time_s",
+                     "leb_active",
+                    "leb_thrust_N",
+                    "leb_power_W",
+                    "leb_propellant_kg",
+                    "leb_burn_time_s"
+                ]
+            }
+        }
+    },
+    "training": {
+        "batch_size": 128,
+        "learning_rate": 0.001,
+        "optimizer": "Adam",
+        "epochs": 100,
+        "loss_function": "MSE",
+        "amp": false,
+        "early_stop_patience": 8,
+        "use_scheduler": true,
+        "use_early_stopping": true
+    },
+    "dataloader": {
+        "window_size": 60,
+        "features": 65,
+        "shuffle": true
+    },
+    "hardware": {
+        "gpu": "A5000",
+        "num_workers": 0
+    },
+    "seed": 42,
+    "metrics": {
+        "top_k": 3,
+        "min_rec_sigma": 0.05,
+        "min_std": 0.001,
+        "target_recall": 0.95,
+        "clip_scaled_to": 10,
+        "threshold_strategy": "f2_recall",
+        "persistence_window": 2
+    }
+}
