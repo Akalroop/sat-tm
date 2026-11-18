@@ -1,0 +1,6 @@
+#Virtual Files
+../.virtual_documents
+
+#ipynb temp files.
+.ipynb_checkpoints
+
