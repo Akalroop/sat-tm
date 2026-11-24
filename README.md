@@ -1,6 +1,6 @@
-# Satellite Telemetry Anomaly Detection
+# Anomaly Detection in Time Series Dataset using LSTM Autoencoder
 
-This project trains and evaluates an LSTM autoencoder to detect anomalies in simulated satellite telemetry. It also includes a PyQt dashboard for running the trained detector against a live telemetry simulator, plus notebooks and experiment configurations for model and parameter ablations.
+sat-tm trains and evaluates an LSTM autoencoder to detect anomalies in simulated satellite telemetry. It also includes a PyQt dashboard for running the trained detector against a live telemetry simulator, plus notebooks and experiment configurations for model and parameter ablations.
 
 ## How it works
 
